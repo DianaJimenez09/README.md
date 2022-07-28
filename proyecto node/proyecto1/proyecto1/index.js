@@ -1,5 +1,5 @@
-function suma(num1,num2){
-    let resultado = num1 + num2;
+function suma(num1,num2,num3=0){
+    let resultado = num1 + num2 + num3;
     return resultado;
 };
 
@@ -17,6 +17,8 @@ function division(num1,num2){
     let resultado = num1 / num2;
     return resultado;
 };
+
+
 //////////////
 ///PARTE NUEVA
 //////////////
